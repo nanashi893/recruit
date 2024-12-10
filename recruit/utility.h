@@ -1,5 +1,6 @@
 #pragma once
 #include<vector>
+#include<string>
 
 // 配列をシャッフルする
 void Shuffle(std::vector<int>& ubdices);
@@ -11,3 +12,8 @@ std::vector<int> CreateRandomIndices(int n);
 // n			作成する番号の範囲
 // correctIndex 正解の番号
 std::vector<int> CreateWrongIndices(int n, int correctIndex);
+
+// 文字列を分割する
+// s 分割する文字列
+// c 区切り文字
+std::vector<std::string> Split(const std::string& s, char c);

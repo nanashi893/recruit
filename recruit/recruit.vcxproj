@@ -128,6 +128,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="exam_english.cpp" />
+    <ClCompile Include="exam_geography.cpp" />
     <ClCompile Include="exam_japanese.cpp" />
     <ClCompile Include="exam_science.cpp" />
     <ClCompile Include="main.cpp" />
@@ -135,10 +136,14 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="exam_english.h" />
+    <ClInclude Include="exam_geography.h" />
     <ClInclude Include="exam_japanese.h" />
     <ClInclude Include="exam_science.h" />
     <ClInclude Include="question.h" />
     <ClInclude Include="utility.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="japanese_prefectures.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
