@@ -8,7 +8,7 @@ using namespace std;
 /**
 * “s“¹•{Œ§‚Ì–â‘è‚ğì¬‚·‚é
 **/
-QuestionList CreatePrefecturesExam()
+QuestionList CreateGeographyExam()
 {
 	// “s“¹•{Œ§ƒf[ƒ^
 	struct PrefectureData

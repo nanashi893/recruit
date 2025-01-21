@@ -2,7 +2,7 @@
 #include"question.h"
 
 // ‰p’PŒê‚Ì–â‘è‚ğì¬‚·‚é
-QuestionList CreatEnglishWordExam();
+QuestionList CreateEnglishExam();
 
 // ‰pŒê‚Ì’èŒ^•¶‚Ì–â‘è‚ğì¬‚·‚é
 QuestionList CreateEnglishPhraseExam();

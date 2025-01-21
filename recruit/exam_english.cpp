@@ -7,7 +7,7 @@ using namespace std;
 	‰p’PŒê‚Ì–â‘è‚ğì¬‚·‚é
 */
 
-QuestionList CreatEnglishWordExam()
+QuestionList CreateEnglishExam()
 {
 	static const struct {
 		const char* word;		//‰p’PŒê
