@@ -268,7 +268,7 @@ QuestionList CreateAntonymExam()
 		string s = "「" + string(data[correctIndex].kanji[object]) +
 			"」の対義語として正しい番号を選べ";
 		for (int j = 0; j < 4; j++) {
-			s += "\n  " + to_string(j + 1) + ":" + data[answers[j]].kanji[object];
+			s += "\n  " + to_string(j + 1) + ":" + data[answers[j]].kanji[other];
 		}
 		questions.push_back({ s, to_string(correctNo) });
 	}
